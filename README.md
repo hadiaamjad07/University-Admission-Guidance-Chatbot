@@ -1,44 +1,136 @@
 # 🎓 University Admission Guidance Chatbot
 
-## Overview
+## 📌 Overview
 
-The University Admission Guidance Chatbot is a web-based application developed using Python and Streamlit. It assists students by providing information about university admissions, scholarships, degree programs, and higher education opportunities.
+This project is a University Admission Guidance Chatbot built using Python and Streamlit.
 
-The chatbot uses data collected from educational websites through web scraping and provides relevant answers based on keyword matching and information retrieval techniques.
+It helps students get information about universities, scholarships, admissions, degree programs, and higher education opportunities.
 
-## Features
+The chatbot uses web scraping to collect educational content from multiple websites and then provides answers based on that dataset.
 
-* Interactive chatbot interface
-* University admission guidance
-* Scholarship information
-* Higher education resources
-* Web-scraped educational dataset
-* Fast and user-friendly Streamlit interface
+---
 
-## Technologies Used
+## 🚀 Features
 
-* Python
+* 🌐 Web scraping from educational websites
+* 📚 Dataset creation from online educational sources
+* 🎓 University admission guidance
+* 💰 Scholarship information support
+* 💬 Interactive Streamlit web interface
+* ⚡ Fast keyword-based response system
+* 📖 Higher education information for students
+
+---
+
+## 🛠 Technologies Used
+
+* Python 🐍
 * Streamlit
-* BeautifulSoup
+* BeautifulSoup (bs4)
 * Requests
-* GitHub
+* Regular Expressions (re)
 
-## How It Works
+---
 
-1. Educational data is collected from trusted websites using web scraping.
-2. The data is stored in a text dataset.
-3. Users enter questions through the chatbot interface.
-4. The chatbot searches the dataset for relevant information.
-5. The most relevant answers are displayed to the user.
+## 📂 Project Structure
 
-## Future Improvements
+University-Admission-Guidance-Chatbot/
 
-* AI/NLP-based responses
-* Multiple university databases
-* Improved search accuracy
-* Voice-enabled interaction
-* Student profile recommendations
+│
 
-## Author
+├── app.py # Streamlit chatbot UI
 
-Developed as an educational project for learning web scraping, information retrieval, and chatbot development using Python.
+├── web_scraper.py # Web scraping script
+
+├── training_data.txt # Collected dataset
+
+├── requirements.txt # Required libraries
+
+├── README.md # Project documentation
+
+---
+
+## ⚙️ How It Works
+
+### 1️⃣ Data Collection
+
+* Scrapes text from educational websites
+* Extracts useful paragraphs
+* Stores cleaned data in training_data.txt
+
+### 2️⃣ Processing
+
+* Splits text into sentences
+* Matches user input with dataset keywords
+* Finds the most relevant answers
+
+### 3️⃣ Output
+
+* Displays relevant information in chatbot format
+* Provides admission and scholarship guidance
+
+---
+
+## ▶️ How to Run
+
+### Step 1: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 2: Run Scraper
+
+```bash
+python web_scraper.py
+```
+
+### Step 3: Run Chatbot
+
+```bash
+python -m streamlit run app.py
+```
+
+### Step 4: Open Browser
+
+```text
+http://localhost:8501
+```
+
+---
+
+## 🎯 Example Questions
+
+* What is a university?
+* What is higher education?
+* What is a scholarship?
+* What are degree programs?
+* How does university admission work?
+
+---
+
+## ⚠️ Limitations
+
+* Does not use a deep learning model
+* Works primarily on keyword matching
+* Depends on scraped data quality
+* Limited to information available in the dataset
+
+---
+
+## 🔮 Future Improvements
+
+* Add AI/NLP-based responses
+* Improve answer accuracy
+* Add ChatGPT-style interface
+* Support multiple university databases
+* Deploy online using Streamlit Cloud
+* Add voice interaction support
+
+---
+
+## 👨‍💻 Author
+
+* Student Project – University Admission Guidance Chatbot
+* Built for learning purposes (Python + Web Scraping + Streamlit)
+
