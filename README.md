@@ -1,6 +1,6 @@
 # 🎓 University Admission Guidance Chatbot
 
-## 📌 Overview
+##  Overview
 
 This project is a University Admission Guidance Chatbot built using Python and Streamlit.
 
@@ -8,9 +8,9 @@ It helps students get information about universities, scholarships, admissions, 
 
 The chatbot uses web scraping to collect educational content from multiple websites and then provides answers based on that dataset.
 
----
 
-## 🚀 Features
+
+##  Features
 
 * 🌐 Web scraping from educational websites
 * 📚 Dataset creation from online educational sources
@@ -20,9 +20,9 @@ The chatbot uses web scraping to collect educational content from multiple websi
 * ⚡ Fast keyword-based response system
 * 📖 Higher education information for students
 
----
 
-## 🛠 Technologies Used
+
+##  Technologies Used
 
 * Python 🐍
 * Streamlit
@@ -30,9 +30,9 @@ The chatbot uses web scraping to collect educational content from multiple websi
 * Requests
 * Regular Expressions (re)
 
----
 
-## 📂 Project Structure
+
+##  Project Structure
 
 University-Admission-Guidance-Chatbot/
 
@@ -48,9 +48,9 @@ University-Admission-Guidance-Chatbot/
 
 ├── README.md # Project documentation
 
----
 
-## ⚙️ How It Works
+
+##  How It Works
 
 ### 1️⃣ Data Collection
 
@@ -69,7 +69,7 @@ University-Admission-Guidance-Chatbot/
 * Displays relevant information in chatbot format
 * Provides admission and scholarship guidance
 
----
+
 
 ## ▶️ How to Run
 
@@ -97,9 +97,9 @@ python -m streamlit run app.py
 http://localhost:8501
 ```
 
----
 
-## 🎯 Example Questions
+
+##  Example Questions
 
 * What is a university?
 * What is higher education?
@@ -107,18 +107,18 @@ http://localhost:8501
 * What are degree programs?
 * How does university admission work?
 
----
 
-## ⚠️ Limitations
+
+##  Limitations
 
 * Does not use a deep learning model
 * Works primarily on keyword matching
 * Depends on scraped data quality
 * Limited to information available in the dataset
 
----
 
-## 🔮 Future Improvements
+
+##  Future Improvements
 
 * Add AI/NLP-based responses
 * Improve answer accuracy
@@ -127,9 +127,9 @@ http://localhost:8501
 * Deploy online using Streamlit Cloud
 * Add voice interaction support
 
----
 
-## 👨‍💻 Author
+
+##  Author
 
 * Student Project – University Admission Guidance Chatbot
 * Built for learning purposes (Python + Web Scraping + Streamlit)
